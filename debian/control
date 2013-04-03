@@ -2,8 +2,8 @@ Source: debathena-quota
 Section: debathena/utils
 Priority: extra
 Maintainer: Debathena Project <debathena@mit.edu>
-Build-Depends: @cdbs@, comerr-dev, libopenafs-dev, libkrb5-dev, libhesiod-dev, libzephyr-dev, debathena-liblocker-dev
-Standards-Version: 3.7.2
+Build-Depends: cdbs, debhelper, dh-buildinfo, autoconf, comerr-dev, libopenafs-dev, libkrb5-dev, libhesiod-dev, libzephyr-dev, debathena-liblocker-dev
+Standards-Version: 3.9.3
 
 Package: debathena-quota
 Architecture: any
